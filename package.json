@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kierajreed/recipe-wiki/issues"
   },
-  "homepage": "https://github.com/kierajreed/recipe-wiki#readme"
+  "homepage": "https://github.com/kierajreed/recipe-wiki#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
