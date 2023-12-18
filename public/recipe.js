@@ -4,7 +4,7 @@ function renderRecipe(recipe) {
     return `<div>
         <div>
             <h1>${recipe.name}</h1>
-            <h3>By ${recipe.author}</h3>
+            <h4>By ${recipe.author}</h4>
         </div>
         <div>${ recipe.ingredients.map(e =>
             `${e.title!=='' ? `<h2>${e.title}</h2>` : ''}
